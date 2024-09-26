@@ -14,10 +14,10 @@ public class BasicCalculator {
 
 
         System.out.println("Possible calculations: " +
-                "\n(A)dd " +
-                "\n(S)ubstract" +
-                "\n(M)ultiply " +
-                "\n(D)ivide " +
+                "\n (A)dd " +
+                "\n (S)ubstract" +
+                "\n (M)ultiply " +
+                "\n (D)ivide " +
                 "\nPlease select an option: ");
 
         String choice = scanner.nextLine();
