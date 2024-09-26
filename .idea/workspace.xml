@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbf8c3f6-ab3b-45e5-b0be-f13ea8bf0b5f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bbf8c3f6-ab3b-45e5-b0be-f13ea8bf0b5f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,10 +33,12 @@
     "Application.BasicCalculator.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MathApp.executor": "Run",
+    "Application.PayrollCalculator.executor": "Run",
     "Application.ShoppingList.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/osmig/OneDrive/Desktop/program",
     "project.structure.last.edited": "Modules",
@@ -51,7 +51,7 @@
       <recent name="C:\Users\osmig\OneDrive\Desktop\program" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BasicCalculator">
+  <component name="RunManager" selected="Application.PayrollCalculator">
     <configuration name="BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pluralsight.BasicCalculator" />
       <module name="untitled" />
@@ -80,6 +80,19 @@
     </configuration>
     <configuration name="MathApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pluralsight.MathApp" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pluralsight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PayrollCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.PayrollCalculator" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -187,6 +200,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PayrollCalculator" />
         <item itemvalue="Application.BasicCalculator" />
         <item itemvalue="Application.MathApp" />
         <item itemvalue="Application.ShoppingList" />
