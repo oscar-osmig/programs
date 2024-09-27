@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbf8c3f6-ab3b-45e5-b0be-f13ea8bf0b5f" name="Changes" comment="" />
+    <list default="true" id="bbf8c3f6-ab3b-45e5-b0be-f13ea8bf0b5f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Payroll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/PayrollCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/PayrollCalculator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,9 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2mZseCH6GAH3vhrtkpRFCpAR5Gi" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,7 +37,8 @@
     "Application.BasicCalculator.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MathApp.executor": "Run",
-    "Application.PayrollCalculator.executor": "Run",
+    "Application.Payroll.executor": "Run",
+    "Application.PayrollCalculator.executor": "Coverage",
     "Application.ShoppingList.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
@@ -43,7 +48,8 @@
     "last_opened_file_path": "C:/Users/osmig/OneDrive/Desktop/program",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -51,7 +57,7 @@
       <recent name="C:\Users\osmig\OneDrive\Desktop\program" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PayrollCalculator">
+  <component name="RunManager" selected="Application.Payroll">
     <configuration name="BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pluralsight.BasicCalculator" />
       <module name="untitled" />
@@ -65,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+    <configuration name="MathApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.MathApp" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="com.pluralsight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pluralsight.MathApp" />
+    <configuration name="Payroll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.Payroll" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -200,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Payroll" />
         <item itemvalue="Application.PayrollCalculator" />
         <item itemvalue="Application.BasicCalculator" />
         <item itemvalue="Application.MathApp" />
         <item itemvalue="Application.ShoppingList" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
