@@ -19,9 +19,9 @@ public class SandwichExercise {
             case "R":
             case "r":
                 if (age <= 17) {
-                    System.out.println("Awesome you've got  10% discount. \nPay: $" + Math.round(reg_price -(reg_price * 0.1)));
+                    System.out.println("Awesome you've got  10% discount. \nPay: $" + (reg_price -(reg_price * 0.1)));
                 } else if (age >= 65) {
-                    System.out.println("Awesome you've got 20% discount. \nPay: $" + Math.round(reg_price -(reg_price * 0.2)));
+                    System.out.println("Awesome you've got 20% discount. \nPay: $" + (reg_price -(reg_price * 0.2)));
                 }else {System.out.println("Ok... pay: $" + reg_price);}
                 break;
 
@@ -30,7 +30,7 @@ public class SandwichExercise {
                 if (age <= 17) {
                     System.out.println("Awesome you've got  10% discount. \nPay: $" + (large_price - (large_price * 0.1)));
                 } else if (age >= 65) {
-                    System.out.println("Awesome you've got  20% discount. \nPay: $" + Math.round(large_price - (large_price * 0.2)));
+                    System.out.println("Awesome you've got  20% discount. \nPay: $" + (large_price - (large_price * 0.2)));
                 }else {System.out.println("Ok... pay: $" + large_price);}
                 break;
             default:
