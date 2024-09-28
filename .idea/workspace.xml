@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbf8c3f6-ab3b-45e5-b0be-f13ea8bf0b5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Payroll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/SandwichExercise.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/PayrollCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/PayrollCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +24,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/Payroll.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/SandwichExercise.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -39,6 +46,7 @@
     "Application.MathApp.executor": "Run",
     "Application.Payroll.executor": "Run",
     "Application.PayrollCalculator.executor": "Coverage",
+    "Application.SandwichExercise.executor": "Run",
     "Application.ShoppingList.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
@@ -49,7 +57,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -57,10 +65,10 @@
       <recent name="C:\Users\osmig\OneDrive\Desktop\program" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Payroll">
+  <component name="RunManager" selected="Application.SandwichExercise">
     <configuration name="BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pluralsight.BasicCalculator" />
-      <module name="untitled" />
+      <module name="workbook-1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pluralsight.*" />
@@ -73,7 +81,7 @@
     </configuration>
     <configuration name="MathApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pluralsight.MathApp" />
-      <module name="untitled" />
+      <module name="workbook-1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pluralsight.*" />
@@ -86,7 +94,7 @@
     </configuration>
     <configuration name="Payroll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pluralsight.Payroll" />
-      <module name="untitled" />
+      <module name="workbook-1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pluralsight.*" />
@@ -99,7 +107,7 @@
     </configuration>
     <configuration name="PayrollCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pluralsight.PayrollCalculator" />
-      <module name="untitled" />
+      <module name="workbook-1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pluralsight.*" />
@@ -110,9 +118,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pluralsight.ShoppingList" />
-      <module name="untitled" />
+    <configuration name="SandwichExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.SandwichExercise" />
+      <module name="workbook-1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pluralsight.*" />
@@ -206,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SandwichExercise" />
         <item itemvalue="Application.Payroll" />
         <item itemvalue="Application.PayrollCalculator" />
         <item itemvalue="Application.BasicCalculator" />
         <item itemvalue="Application.MathApp" />
-        <item itemvalue="Application.ShoppingList" />
       </list>
     </recent_temporary>
   </component>
