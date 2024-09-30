@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbf8c3f6-ab3b-45e5-b0be-f13ea8bf0b5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/SandwichShop_loaded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/RentalCarCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/SandwichExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/SandwichExercise.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +25,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/Payroll.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/RentalCarCalculator.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/SandwichExercise.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/SandwichShop_loaded.java" root0="SKIP_INSPECTION" />
   </component>
@@ -47,6 +47,7 @@
     "Application.MathApp.executor": "Run",
     "Application.Payroll.executor": "Run",
     "Application.PayrollCalculator.executor": "Coverage",
+    "Application.RentalCarCalculator.executor": "Run",
     "Application.SandwichExercise.executor": "Run",
     "Application.SandwichShop_loaded.executor": "Run",
     "Application.ShoppingList.executor": "Run",
@@ -67,20 +68,7 @@
       <recent name="C:\Users\osmig\OneDrive\Desktop\program" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SandwichShop_loaded">
-    <configuration name="BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pluralsight.BasicCalculator" />
-      <module name="workbook-1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pluralsight.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RentalCarCalculator">
     <configuration name="Payroll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pluralsight.Payroll" />
       <module name="workbook-1" />
@@ -96,6 +84,19 @@
     </configuration>
     <configuration name="PayrollCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pluralsight.PayrollCalculator" />
+      <module name="workbook-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pluralsight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RentalCarCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.RentalCarCalculator" />
       <module name="workbook-1" />
       <extension name="coverage">
         <pattern>
@@ -216,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RentalCarCalculator" />
         <item itemvalue="Application.SandwichShop_loaded" />
         <item itemvalue="Application.SandwichExercise" />
         <item itemvalue="Application.Payroll" />
         <item itemvalue="Application.PayrollCalculator" />
-        <item itemvalue="Application.BasicCalculator" />
       </list>
     </recent_temporary>
   </component>
